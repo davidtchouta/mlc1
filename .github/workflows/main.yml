@@ -22,7 +22,7 @@ jobs:
         
       - name: Install dependencies
         run:
-          pip install pytest scikit-learn numpy joblib
+          pip install pytest scikit-learn numpy joblib pandas
           pip install huggingface_hub
         
       - name: Run some tests
